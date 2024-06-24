@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="design.css">
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <header class="header non-home-header">
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <h1 class="navbar-brand">Eranki Srikaavya</h1>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        <ul class="menu-items">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="left-content">
+          <h1 class="about-heading">About Me</h1>
+          <div class="intro">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV4Xx1o4fA5IBQoYnFpxwVBHKiF9PIgJvpsA&s" alt="image">
+          <p>
+            I am 21 year old, recently graduated from Mahatma Gandhi Institute of Technology.
+            I really enjoy solving problems as well as making things pretty and easy to use. I enjoy learning new things.
+          </p>
+          </div>
+        </div>
+        <div class="skills">
+          <h1 class="skills-heading">My Skills</h1>
+          <div class="skills-bar">
+            <div class="bar">
+              <div class="info"><span>HTML</span></div>
+              <div class="progress-line"><span class="html"></span></div>
+            </div>
+            <div class="bar">
+              <div class="info"><span>CSS</span></div>
+              <div class="progress-line"><span class="css"></span></div>
+            </div>
+            <div class="bar">
+              <div class="info"><span>DBMS</span></div>
+              <div class="progress-line"><span class="dbms"></span></div>
+            </div>
+            <div class="bar">
+              <div class="info"><span>Python</span></div>
+              <div class="progress-line"><span class="python"></span></div>
+            </div>
+            <div class="bar">
+              <div class="info"><span>Java</span></div>
+              <div class="progress-line"><span class="java"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-non-home">
+    <div class="container">
+      <div class="footer-content">
+        <div class="left-section">
+          <p><i class="fas fa-envelope"></i> srikaavyae@gmail.com</p>
+        </div>
+        <div class="center-section">
+          <div class="social-links">
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Sri-1804/erankisrikaavya_ldp" target="_blank"><i class="fab fa-github"></i></a>
+          <i class="fas fa-map-marker-alt"></i> Hyderabad</p>
+        </div>
+        <div class="right-section">
+          <p><i class="fas fa-phone"></i> +1234567890</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+  <script>
+    // JavaScript to toggle the menu
+    document.addEventListener("DOMContentLoaded", function() {
+      const menuToggle = document.querySelector(".menu-toggle");
+      const menuItems = document.querySelector(".menu-items");
+
+      menuToggle.addEventListener("click", function() {
+        menuItems.classList.toggle("show");
+      });
+    });
+</script>
+</body>
+
+</html>
