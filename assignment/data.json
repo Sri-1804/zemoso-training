@@ -1,0 +1,49 @@
+{
+    "categories": [
+      {
+        "name": "Starters",
+        "items": [
+          {
+            "name": "Garlic Bread",
+            "price": 5.99,
+            "image": "https://www.budgetbytes.com/wp-content/uploads/2023/08/Garlic-Bread-close.jpg"
+          },
+          {
+            "name": "Salad",
+            "price": 7.99,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOkADJQzpAXl-J2KQz7BW9qemc8ectcZovA&s"
+          }
+        ]
+      },
+      {
+        "name": "Main Courses",
+        "items": [
+          {
+            "name": "Spaghetti Carbonara",
+            "price": 12.99,
+            "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?quality=90&resize=440,400"
+          },
+          {
+            "name": "Veg Biryani",
+            "price": 15.99,
+            "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/04/veg-biryani-recipe-500x500.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Desserts",
+        "items": [
+          {
+            "name": "Chocolate Lava Cake",
+            "price": 6.99,
+            "image": "https://sallysbakingaddiction.com/wp-content/uploads/2013/04/triple-chocolate-cake-4.jpg"
+          },
+          {
+            "name": "Tiramisu",
+            "price": 8.99,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuwKZtoPfrp-Le01UzH_OxJXccfRP3cZIeRg&s"
+          }
+        ]
+      }
+    ]
+  }
